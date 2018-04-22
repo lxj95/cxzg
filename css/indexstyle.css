@@ -1,0 +1,258 @@
+body{
+    background-color: white;
+}
+
+header{
+    height: 120px;
+}
+/* ͷ��*/
+#shouye{
+    display: inline-block;
+    font-size: 12px;
+}
+.topbox li a{
+    color: #3a3a3a;
+}
+#shouye li a:hover{
+    color: orange;
+}
+#shoutu img{
+    height: 600px;
+    width: 100%;
+    margin-top: -5px;
+}
+#shoulogo li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.topbox{
+    position: relative;
+    height: 80px;
+}
+#logo{
+    margin-left: 200px;
+}
+header #shoulogo{
+    float: right;
+    position: absolute;
+    right: 200px;
+    top: 20px;
+}
+header ul li{
+    font-family: ΢���ź�;
+    font-size: 14px;
+    color: gray;
+    list-style: none;
+}
+#shouye{
+    font: 14px bold;
+}
+a:link{
+    text-decoration: none;
+}
+#navmenu a:hover{
+    color: orange;
+}
+.nav{
+    background: #3a3a3a;
+    border-top: 0px #ffffff solid;
+    height: 35px;
+}
+.menu{
+    height: 40px;
+    width: 982px;
+    margin: 0 auto;
+}
+#navmenu{
+    margin: 0 auto;
+    display: block;
+    width: 982px;
+    position: relative;
+    z-index: 1000;
+}
+.menulevel{
+    float: left;
+    position: relative;
+    display:inline-block;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px;
+}
+#navmenu a{
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    width: 121px;
+}
+.menulevel{
+    background: #3a3a3a;
+    border-right: 1px solid #7d7d7d;
+}
+.menulevel{
+    width: 121px;
+}
+.menulevel:hover .menulevel01{
+    display: block;
+}
+.menulevel li a{
+    border-top: 1px solid #555555;
+    background: #3a3a3a;
+}
+.menulevel01{
+    position: absolute;
+    display: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menulevel01-1{
+    background: rgba(0, 0, 0, 0.1);
+}
+body a:hover{
+    color: orange;
+}
+/*�м䲿��*/
+
+/*�м���ߺ���*/
+#centerbox{
+    height: 910px;
+    position: relative;
+    margin-top:10px;
+    background: url(../images/bodybg.jpg) white;
+
+}
+.centerbox-1{
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+#centerbox-2-1{
+    width: 220px;
+    border: 1px solid #cccccc;
+    background: white;
+}
+#centerbox-2-1 h1{
+    padding-left: 5px;
+}
+#centerbox-2-1 .2-1-li{
+    line-height: 35px;
+    border-bottom: 1px solid #cccccc;
+    list-style: none;
+}
+#centerbox-2-1  .li11{
+    line-height: 35px;
+    border-bottom: 1px solid #cccccc;
+    list-style: none;
+    padding-left: 22px;
+}
+
+#centerbox-2-1 li a{
+    color: cornflowerblue;
+    font: 14px bold;
+    font-family:'Hiragino Sans GB','Microsoft Yahei',"WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti;
+    font-weight: bold;
+
+}
+#centerbox-2-1 li a:hover{
+    color: orange;
+}
+#centerbox-2-1 li img,a{
+    vertical-align:middle;
+}
+.centerbox-2{
+    width: 220px;
+    border: 1px solid #cccccc;
+    background: white;
+    margin-top: 20px;
+}
+
+.centerbox-2 h1{
+    color: cornflowerblue;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    line-height: 12px;
+    border-bottom: 1px solid gray;
+}
+.centerbox-2 h1,img{
+    vertical-align:sub;
+}
+.centerbox-2 a{
+    color:cornflowerblue;
+    font-size: 14px;
+    padding: 0px 12px;
+    font-weight: bold;
+    line-height: 30px;
+}
+#centerbox-2-2 h4{padding-left: 5px;}
+#centerbox-2-2 li{
+    padding-left: 5px;
+    list-style: none;
+    border-bottom: 1px solid #cccccc;
+}
+#centerbox-2-2 a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+#right{
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    border: 1px solid #cccccc;
+    width: 700px;
+    float:right;
+    margin-right: 10%;
+    height:900px;
+}
+#right h3,.you{
+    padding-left: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+.you video{
+    width: 600px;
+    height: 350px
+}
+#right h3{
+    font-size: 16px;
+    color:cornflowerblue;
+    border-bottom:1px solid #cccccc;
+}
+.you p{
+    font-size: 12px;
+    text-indent:2em ;
+    line-height:20px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #3a3a3a;
+}
+ul{margin: 0;padding: 0;list-style: none;}
+.falist{margin: 0 auto;}
+footer .falist .falist-li{
+    display: block;
+    width: 100px;
+    float: left;
+   text-align: left;
+   padding-right: 20px;
+    color: orange;
+}
+footer .falist .flfoot li a{
+    font-size: 12px;
+    color: #d3d3d3;
+}
+footer .falist>li a {
+    color:orange;
+}
+footer .falist>li a:hover{
+    color: orangered;
+}
+.footer-div{width: 1100px;margin: 0 auto;padding-top:20px;}
+
+
